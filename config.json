@@ -1,0 +1,21 @@
+{
+  "site_name": "Calculs Malins",
+  "tagline": "Calculateurs gratuits pour l'argent du quotidien",
+  "description": "Simulateurs et calculateurs gratuits pour vos finances : salaire brut/net, prêt immobilier, frais kilométriques, TVA et bien plus.",
+  "lang": "fr",
+  "site_url": "",
+  "base_path": "",
+  "owner_name": "Amaury de Kergorlay",
+  "contact_email": "",
+  "adsense_client": "",
+  "goatcounter_code": "",
+  "categories": {
+    "travail": "Travail & salaire",
+    "immobilier": "Immobilier & crédit",
+    "auto": "Auto & déplacements",
+    "quotidien": "Calculs du quotidien",
+    "epargne": "Épargne & placements",
+    "impots": "Impôts & aides"
+  },
+  "affiliate_blocks": {}
+}

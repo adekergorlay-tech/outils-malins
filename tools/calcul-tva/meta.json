@@ -1,0 +1,12 @@
+{
+  "title": "Calcul de la TVA (HT ↔ TTC)",
+  "description": "Passez d'un prix hors taxes à un prix TTC (ou l'inverse) avec les taux de TVA français : 20 %, 10 %, 5,5 % et 2,1 %.",
+  "category": "quotidien",
+  "emoji": "🧾",
+  "date": "2026-10-25",
+  "faq": [
+    {"q": "Comment calculer un prix TTC à partir du HT ?", "a": "On multiplie le prix HT par (1 + taux de TVA). Avec une TVA à 20 % : 100 € HT × 1,20 = 120 € TTC."},
+    {"q": "Comment retrouver le HT à partir du TTC ?", "a": "On divise le prix TTC par (1 + taux). Par exemple 120 € TTC ÷ 1,20 = 100 € HT. Attention : retirer 20 % du TTC ne donne pas le bon résultat."},
+    {"q": "Quels sont les taux de TVA en France ?", "a": "Le taux normal est de 20 %. Le taux intermédiaire de 10 % s'applique notamment à la restauration et aux travaux de rénovation, 5,5 % aux produits alimentaires de base, et 2,1 % à certains médicaments et à la presse."}
+  ]
+}

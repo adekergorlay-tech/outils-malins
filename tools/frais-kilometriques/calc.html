@@ -1,0 +1,26 @@
+<div class="row">
+  <div>
+    <label for="cv">Puissance fiscale</label>
+    <select id="cv">
+      <option value="3">3 CV et moins</option>
+      <option value="4">4 CV</option>
+      <option value="5" selected>5 CV</option>
+      <option value="6">6 CV</option>
+      <option value="7">7 CV et plus</option>
+    </select>
+  </div>
+  <div>
+    <label for="km">Kilomètres professionnels dans l'année</label>
+    <input id="km" type="text" inputmode="numeric" value="8000">
+  </div>
+</div>
+<label><input id="elec" type="checkbox" style="width:auto"> Véhicule 100 % électrique (+20 %)</label>
+<p class="hint">Astuce : 20 km aller simple × 2 × 210 jours travaillés = 8 400 km par an.</p>
+<div class="result">
+  <div>Indemnités kilométriques estimées</div>
+  <div class="big" id="r-total">–</div>
+  <table>
+    <tr><td>Formule appliquée</td><td id="r-formule">–</td></tr>
+    <tr><td>Soit par kilomètre</td><td id="r-km">–</td></tr>
+  </table>
+</div>

@@ -1,0 +1,27 @@
+<div class="row">
+  <div>
+    <label for="montant">Montant (€)</label>
+    <input id="montant" type="text" inputmode="decimal" value="100">
+  </div>
+  <div>
+    <label for="sens">Ce montant est</label>
+    <select id="sens">
+      <option value="ht">hors taxes (HT)</option>
+      <option value="ttc">toutes taxes comprises (TTC)</option>
+    </select>
+  </div>
+</div>
+<label for="taux">Taux de TVA</label>
+<select id="taux">
+  <option value="20">20 % (taux normal)</option>
+  <option value="10">10 % (restauration, travaux…)</option>
+  <option value="5.5">5,5 % (alimentation, énergie…)</option>
+  <option value="2.1">2,1 % (médicaments, presse)</option>
+</select>
+<div class="result">
+  <table>
+    <tr><td>Prix HT</td><td id="r-ht">–</td></tr>
+    <tr><td>Montant de la TVA</td><td id="r-tva">–</td></tr>
+    <tr><td>Prix TTC</td><td id="r-ttc">–</td></tr>
+  </table>
+</div>

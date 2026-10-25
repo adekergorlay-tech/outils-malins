@@ -1,0 +1,37 @@
+<div class="row">
+  <div>
+    <label for="brut">Salaire brut</label>
+    <input id="brut" type="text" inputmode="decimal" value="2500">
+  </div>
+  <div>
+    <label for="periode">Montant saisi</label>
+    <select id="periode">
+      <option value="mois">par mois</option>
+      <option value="an">par an</option>
+    </select>
+  </div>
+</div>
+<div class="row">
+  <div>
+    <label for="statut">Statut</label>
+    <select id="statut">
+      <option value="0.22">Salarié non-cadre (≈ 22 %)</option>
+      <option value="0.25">Salarié cadre (≈ 25 %)</option>
+      <option value="0.15">Fonction publique (≈ 15 %)</option>
+    </select>
+  </div>
+  <div>
+    <label for="pas">Taux de prélèvement à la source (%)</label>
+    <input id="pas" type="text" inputmode="decimal" value="0">
+    <span class="hint">Indiqué sur votre fiche de paie ou sur impots.gouv.fr</span>
+  </div>
+</div>
+<div class="result">
+  <div>Salaire net mensuel avant impôt</div>
+  <div class="big" id="r-net">–</div>
+  <table>
+    <tr><td>Net annuel avant impôt</td><td id="r-net-an">–</td></tr>
+    <tr><td>Net mensuel après impôt</td><td id="r-net-pas">–</td></tr>
+    <tr><td>Cotisations salariales par mois</td><td id="r-cotis">–</td></tr>
+  </table>
+</div>

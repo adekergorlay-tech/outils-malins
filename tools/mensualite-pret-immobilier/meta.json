@@ -1,0 +1,12 @@
+{
+  "title": "Simulateur de mensualité de prêt immobilier",
+  "description": "Calculez la mensualité, le coût total des intérêts et de l'assurance de votre crédit immobilier en quelques secondes.",
+  "category": "immobilier",
+  "emoji": "🏠",
+  "date": "2026-10-25",
+  "faq": [
+    {"q": "Comment est calculée la mensualité d'un prêt ?", "a": "On utilise la formule des prêts à taux fixe amortissables : mensualité = capital × t / (1 − (1 + t)^−n), où t est le taux mensuel et n le nombre de mois. L'assurance s'ajoute ensuite."},
+    {"q": "Quel est le taux d'endettement maximum ?", "a": "Les banques appliquent en général la règle du Haut Conseil de stabilité financière : les mensualités de crédit, assurance comprise, ne doivent pas dépasser 35 % des revenus nets."},
+    {"q": "Faut-il allonger la durée du prêt ?", "a": "Une durée plus longue baisse la mensualité mais augmente fortement le coût total des intérêts. Comparez plusieurs durées avec le simulateur."}
+  ]
+}

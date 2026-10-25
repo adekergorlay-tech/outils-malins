@@ -1,0 +1,12 @@
+{
+  "title": "Calcul des frais kilométriques (barème fiscal)",
+  "description": "Estimez vos indemnités kilométriques déductibles selon la puissance fiscale de votre voiture et la distance parcourue dans l'année.",
+  "category": "auto",
+  "emoji": "🚗",
+  "date": "2026-10-25",
+  "faq": [
+    {"q": "Qui peut utiliser le barème kilométrique ?", "a": "Les salariés qui optent pour la déduction des frais réels sur leur déclaration de revenus, ainsi que les entrepreneurs qui utilisent leur véhicule personnel pour leur activité."},
+    {"q": "Les voitures électriques sont-elles avantagées ?", "a": "Oui, le montant obtenu avec le barème est majoré de 20 % pour les véhicules 100 % électriques."},
+    {"q": "Les trajets domicile-travail sont-ils plafonnés ?", "a": "Oui, sauf circonstances particulières, la distance domicile-travail retenue est limitée à 40 km par trajet (soit 80 km aller-retour par jour)."}
+  ]
+}

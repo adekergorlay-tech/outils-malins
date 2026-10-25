@@ -1,0 +1,12 @@
+{
+  "title": "Calcul salaire brut en net",
+  "description": "Convertissez votre salaire brut en net (mensuel et annuel) selon votre statut, avec le net après prélèvement à la source.",
+  "category": "travail",
+  "emoji": "💼",
+  "date": "2026-10-25",
+  "faq": [
+    {"q": "Quelle est la différence entre salaire brut et net ?", "a": "Le salaire brut est le montant avant déduction des cotisations sociales salariales (retraite, CSG, CRDS…). Le net est ce qui reste après ces cotisations, avant l'impôt sur le revenu."},
+    {"q": "Pourquoi un cadre touche-t-il un peu moins de net pour le même brut ?", "a": "Les cadres cotisent davantage pour la retraite complémentaire et l'APEC : leurs cotisations représentent environ 25 % du brut, contre environ 22 % pour un non-cadre."},
+    {"q": "Le résultat est-il exact au centime ?", "a": "Non, c'est une estimation basée sur des taux moyens. Le montant exact dépend de votre convention collective, de votre mutuelle et d'éventuelles primes : seule votre fiche de paie fait foi."}
+  ]
+}

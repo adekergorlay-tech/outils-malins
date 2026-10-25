@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "frais-de-notaire",
+    "title": "Calcul des frais de notaire",
+    "category": "immobilier",
+    "notes": "Ancien ≈ 7-8 % du prix, neuf ≈ 2-3 %. Détail : droits de mutation (taux départemental, à vérifier), émoluments du notaire (barème proportionnel par tranches), débours. Préciser que c'est une estimation."
+  },
+  {
+    "slug": "capacite-emprunt",
+    "title": "Simulateur de capacité d'emprunt",
+    "category": "immobilier",
+    "notes": "À partir des revenus nets, charges, taux, durée : mensualité max = 35 % des revenus − charges, puis capital = mensualité × (1 − (1+t)^−n) / t."
+  },
+  {
+    "slug": "rentabilite-locative",
+    "title": "Calcul de rentabilité locative",
+    "category": "immobilier",
+    "notes": "Rentabilité brute = loyer annuel / prix × 100 ; nette = (loyers − charges − taxe foncière) / (prix + frais) × 100."
+  },
+  {
+    "slug": "interets-composes",
+    "title": "Calculateur d'intérêts composés",
+    "category": "epargne",
+    "notes": "Capital initial + versements mensuels, taux annuel, durée : valeur finale, total versé, intérêts gagnés."
+  },
+  {
+    "slug": "livret-a-interets",
+    "title": "Calcul des intérêts du Livret A",
+    "category": "epargne",
+    "notes": "Règle des quinzaines ; taux à saisir par l'utilisateur (valeur par défaut indiquée comme à vérifier) ; plafond 22 950 €."
+  },
+  {
+    "slug": "pourcentage",
+    "title": "Calcul de pourcentage",
+    "category": "quotidien",
+    "notes": "Trois modes : X % de Y, X représente quel % de Y, évolution en % entre deux valeurs."
+  },
+  {
+    "slug": "prix-remise",
+    "title": "Calcul d'une remise ou réduction",
+    "category": "quotidien",
+    "notes": "Prix après remise, remises successives (ex. -20 % puis -10 %), montant économisé."
+  },
+  {
+    "slug": "taux-horaire",
+    "title": "Calcul du salaire horaire",
+    "category": "travail",
+    "notes": "Convertir un salaire mensuel en taux horaire et inversement, base 35 h = 151,67 h par mois."
+  },
+  {
+    "slug": "indemnite-licenciement",
+    "title": "Calcul de l'indemnité légale de licenciement",
+    "category": "travail",
+    "notes": "1/4 de mois de salaire par année jusqu'à 10 ans, 1/3 au-delà ; minimum 8 mois d'ancienneté ; salaire de référence."
+  },
+  {
+    "slug": "indemnite-rupture-conventionnelle",
+    "title": "Simulateur d'indemnité de rupture conventionnelle",
+    "category": "travail",
+    "notes": "Minimum égal à l'indemnité légale de licenciement : 1/4 de mois par année jusqu'à 10 ans, 1/3 ensuite."
+  },
+  {
+    "slug": "conges-payes",
+    "title": "Calcul des congés payés acquis",
+    "category": "travail",
+    "notes": "2,5 jours ouvrables par mois travaillé, maximum 30 jours ; indemnité selon la règle du dixième ou du maintien de salaire."
+  },
+  {
+    "slug": "heures-supplementaires",
+    "title": "Calcul des heures supplémentaires",
+    "category": "travail",
+    "notes": "Majoration de 25 % de la 36e à la 43e heure, 50 % au-delà (sauf accord collectif)."
+  },
+  {
+    "slug": "auto-entrepreneur-cotisations",
+    "title": "Simulateur de cotisations auto-entrepreneur",
+    "category": "impots",
+    "notes": "Chiffre d'affaires × taux selon activité (vente, prestation BIC, BNC) ; taux à afficher avec mention de vérifier sur urssaf.fr."
+  },
+  {
+    "slug": "consommation-carburant",
+    "title": "Calcul de consommation de carburant",
+    "category": "auto",
+    "notes": "Litres aux 100 km = litres / km × 100, coût du trajet selon prix du litre."
+  },
+  {
+    "slug": "cout-trajet",
+    "title": "Calculateur du coût d'un trajet en voiture",
+    "category": "auto",
+    "notes": "Distance, consommation, prix du carburant, péages, nombre de passagers : coût total et par personne."
+  },
+  {
+    "slug": "cout-voiture-electrique-recharge",
+    "title": "Coût de recharge d'une voiture électrique",
+    "category": "auto",
+    "notes": "Capacité batterie kWh, % à recharger, prix du kWh, pertes ≈ 10 % ; coût aux 100 km."
+  },
+  {
+    "slug": "budget-50-30-20",
+    "title": "Calculateur de budget 50/30/20",
+    "category": "quotidien",
+    "notes": "Répartition du revenu net : 50 % besoins, 30 % envies, 20 % épargne."
+  },
+  {
+    "slug": "partage-depenses",
+    "title": "Calcul de partage des dépenses entre amis",
+    "category": "quotidien",
+    "notes": "Total dépensé par chacun, part équitable, qui doit combien à qui."
+  },
+  {
+    "slug": "prorata-loyer",
+    "title": "Calcul du loyer au prorata",
+    "category": "immobilier",
+    "notes": "Loyer mensuel × jours occupés / jours du mois."
+  },
+  {
+    "slug": "augmentation-loyer-irl",
+    "title": "Calcul de la révision de loyer (IRL)",
+    "category": "immobilier",
+    "notes": "Nouveau loyer = loyer actuel × nouvel IRL / ancien IRL ; l'utilisateur saisit les indices (lien vers l'INSEE)."
+  },
+  {
+    "slug": "plus-value-immobiliere",
+    "title": "Estimation de la plus-value immobilière",
+    "category": "impots",
+    "notes": "Plus-value brute = prix de vente − (prix d'achat + frais). Exonération résidence principale. Abattements pour durée de détention : expliquer et indiquer de vérifier sur impots.gouv.fr."
+  },
+  {
+    "slug": "epargne-objectif",
+    "title": "Combien épargner par mois pour un objectif",
+    "category": "epargne",
+    "notes": "Objectif, durée, rendement annuel : versement mensuel nécessaire (formule de la valeur future d'une annuité)."
+  },
+  {
+    "slug": "inflation-pouvoir-achat",
+    "title": "Calculateur d'inflation et de pouvoir d'achat",
+    "category": "epargne",
+    "notes": "Valeur d'une somme après N années avec un taux d'inflation moyen donné, et perte de pouvoir d'achat."
+  },
+  {
+    "slug": "credit-conso",
+    "title": "Simulateur de crédit à la consommation",
+    "category": "immobilier",
+    "notes": "Montant, durée en mois, TAEG : mensualité et coût total du crédit."
+  },
+  {
+    "slug": "remboursement-anticipe",
+    "title": "Simulateur de remboursement anticipé de prêt",
+    "category": "immobilier",
+    "notes": "Capital restant dû, économie d'intérêts, indemnités de remboursement anticipé plafonnées à 6 mois d'intérêts et 3 % du capital remboursé."
+  },
+  {
+    "slug": "age-retraite",
+    "title": "Calcul de l'âge de départ à la retraite",
+    "category": "travail",
+    "notes": "Selon l'année de naissance, âge légal et durée d'assurance requise ; préciser de vérifier sur info-retraite.fr car les règles évoluent."
+  },
+  {
+    "slug": "prime-activite-estimation",
+    "title": "Estimation simplifiée de la prime d'activité",
+    "category": "impots",
+    "notes": "Expliquer le principe et donner une estimation très indicative ; renvoyer obligatoirement vers le simulateur officiel de la CAF."
+  },
+  {
+    "slug": "cout-electricite-appareil",
+    "title": "Calcul de la consommation électrique d'un appareil",
+    "category": "quotidien",
+    "notes": "Puissance en watts × heures par jour × jours / 1000 = kWh ; × prix du kWh."
+  },
+  {
+    "slug": "marge-commerciale",
+    "title": "Calcul de marge commerciale et coefficient",
+    "category": "quotidien",
+    "notes": "Marge = prix de vente HT − coût d'achat HT ; taux de marge ; taux de marque ; coefficient multiplicateur."
+  },
+  {
+    "slug": "salaire-net-brut",
+    "title": "Calcul salaire net en brut",
+    "category": "travail",
+    "notes": "Inverse du brut/net : brut = net / (1 − taux), taux ≈ 22 % non-cadre, 25 % cadre, 15 % fonction publique."
+  }
+]

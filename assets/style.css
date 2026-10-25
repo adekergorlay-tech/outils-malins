@@ -67,3 +67,8 @@ h2 { font-size: 1.3rem; margin-top: 2rem; }
 .updated { color: var(--muted); font-size: .85rem; }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: .88rem; padding: 16px 0; }
 @media (max-width: 600px) { h1 { font-size: 1.5rem; } }
+.affiliate strong { display: block; font-size: 1.1rem; }
+.affiliate p { margin: 6px 0 12px; }
+.aff-label { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 0 0 4px !important; }
+.aff-btn { display: inline-block; background: var(--accent); color: #fff; padding: 10px 18px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+@media (prefers-color-scheme: dark) { .aff-btn { color: #11151c; } }

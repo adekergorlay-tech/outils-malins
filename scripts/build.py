@@ -153,11 +153,11 @@ def render_tool(cfg, t, tools):
 <section class="calc" id="calc">
 {t['calc_html']}
 </section>
+{f'<aside class="affiliate">{affiliate}</aside>' if affiliate else ''}
 {ad_slot(cfg)}
 <article class="guide">
 {t['guide_html']}
 </article>
-{f'<aside class="affiliate">{affiliate}</aside>' if affiliate else ''}
 {f'<section class="faq"><h2>Questions fréquentes</h2>{faq_html}</section>' if faq else ''}
 <section class="related"><h2>Autres outils utiles</h2><div class="grid">{''.join(tool_card(cfg, x) for x in related)}</div></section>
 <p class="updated">Mis à jour le {esc(t.get('date', ''))}</p>

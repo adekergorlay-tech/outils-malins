@@ -18,5 +18,11 @@
     "epargne": "Épargne & placements",
     "impots": "Impôts & aides"
   },
-  "affiliate_blocks": {}
+  "affiliate_blocks": {
+    "immobilier": "<p class=\"aff-label\">Lien partenaire</p><strong>Trouvez un meilleur taux pour votre prêt</strong><p>Quelques dixièmes de taux en moins représentent des milliers d'euros d'économie sur la durée du crédit. Comparez gratuitement les offres du moment.</p><a class=\"aff-btn\" href=\"https://www.awin1.com/cread.php?awinmid=128757&awinaffid=3134164&ued=https%3A%2F%2Fhellosafe.fr%2Fpret-immobilier\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Comparer les taux de prêt immobilier →</a>",
+    "auto": "<p class=\"aff-label\">Lien partenaire</p><strong>Votre assurance auto est-elle trop chère ?</strong><p>Comparer les assurances auto chaque année permet souvent de payer moins cher, avec les mêmes garanties.</p><a class=\"aff-btn\" href=\"https://www.awin1.com/cread.php?awinmid=128757&awinaffid=3134164&ued=https%3A%2F%2Fhellosafe.fr%2Fassurance-auto\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Comparer les assurances auto →</a>",
+    "travail": "<p class=\"aff-label\">Lien partenaire</p><strong>Payez moins de frais bancaires</strong><p>Les banques en ligne proposent souvent un compte et une carte gratuits. Comparez les offres en 2 minutes.</p><a class=\"aff-btn\" href=\"https://www.awin1.com/cread.php?awinmid=128757&awinaffid=3134164&ued=https%3A%2F%2Fhellosafe.fr%2Fbanque%2Fbanques-en-ligne\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Comparer les banques en ligne →</a>",
+    "quotidien": "<p class=\"aff-label\">Lien partenaire</p><strong>Payez moins de frais bancaires</strong><p>Les banques en ligne proposent souvent un compte et une carte gratuits. Comparez les offres en 2 minutes.</p><a class=\"aff-btn\" href=\"https://www.awin1.com/cread.php?awinmid=128757&awinaffid=3134164&ued=https%3A%2F%2Fhellosafe.fr%2Fbanque%2Fbanques-en-ligne\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Comparer les banques en ligne →</a>",
+    "epargne": "<p class=\"aff-label\">Lien partenaire</p><strong>Payez moins de frais bancaires</strong><p>Les banques en ligne proposent souvent un compte et une carte gratuits. Comparez les offres en 2 minutes.</p><a class=\"aff-btn\" href=\"https://www.awin1.com/cread.php?awinmid=128757&awinaffid=3134164&ued=https%3A%2F%2Fhellosafe.fr%2Fbanque%2Fbanques-en-ligne\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Comparer les banques en ligne →</a>"
+  }
 }

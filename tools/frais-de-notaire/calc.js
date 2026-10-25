@@ -20,7 +20,7 @@ CM.live(function () {
   var debours = type === "neuf" ? 900 : 1200;
 
   if (type === "ancien") {
-    var tauxDep = (dep === "reduit") ? 0.038 : 0.045;
+    var tauxDep = dep === "reduit" ? 0.038 : (dep === "majore" ? 0.05 : 0.045);
     var comm = 0.012;
     var fraisColl = tauxDep * 0.0237;
     var tauxDMTO = tauxDep + comm + fraisColl;

@@ -20,8 +20,34 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TOOLS = ROOT / "tools"
 BACKLOG = TOOLS / "backlog.json"
-MODELS = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-2.5-flash", "gemini-2.0-flash"] if m]
-API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
+API = API_ROOT + "/models/{model}:generateContent"
+_models = None
+
+
+def models():
+    """Modèles à essayer : celui imposé, l'alias « dernier Flash », puis les Flash disponibles, du plus récent au plus ancien."""
+    global _models
+    if _models is None:
+        found = []
+        try:
+            req = urllib.request.Request(API_ROOT + "/models?pageSize=1000",
+                                         headers={"x-goog-api-key": os.environ.get("GEMINI_API_KEY", "")})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                for m in json.load(r).get("models", []):
+                    name = m["name"].split("/", 1)[-1]
+                    if ("generateContent" in m.get("supportedGenerationMethods", []) and "flash" in name
+                            and not re.search(r"lite|image|tts|audio|live|thinking|exp", name)):
+                        found.append(name)
+        except (urllib.error.URLError, KeyError, json.JSONDecodeError) as e:
+            print("Liste des modèles indisponible :", e)
+
+        def version(n):
+            return [int(x) for x in re.findall(r"\d+", n)] + [0 if "preview" in n else 1]
+        found.sort(key=version, reverse=True)
+        _models = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-flash-latest"] if m] + found
+        print("Modèles candidats :", ", ".join(_models[:5]))
+    return _models
 
 FORBIDDEN_JS = ["fetch(", "XMLHttpRequest", "eval(", "Function(", "import(", "document.write",
                 "<script", "localStorage", "sessionStorage", "document.cookie", "window.location",
@@ -40,7 +66,7 @@ def gemini(prompt, schema=None):
     if schema:
         body["generationConfig"]["responseSchema"] = schema
     last = None
-    for model in MODELS:
+    for model in models():
         for attempt in range(3):
             req = urllib.request.Request(
                 API.format(model=model), data=json.dumps(body).encode(),
@@ -52,7 +78,7 @@ def gemini(prompt, schema=None):
                 return json.loads(text)
             except urllib.error.HTTPError as e:
                 last = f"{model}: HTTP {e.code} {e.read()[:300]!r}"
-                if e.code == 404:
+                if e.code in (400, 404):
                     break  # modèle indisponible : on passe au suivant
                 time.sleep(20 * (attempt + 1))
             except (KeyError, IndexError, json.JSONDecodeError, urllib.error.URLError) as e:

@@ -225,6 +225,9 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "assets", OUT / "assets")
+    # Fichiers à placer tels quels à la racine (vérification Google, etc.)
+    if (ROOT / "static").exists():
+        shutil.copytree(ROOT / "static", OUT, dirs_exist_ok=True)
     (OUT / "index.html").write_text(render_index(cfg, tools), encoding="utf-8")
     for t in tools:
         p = OUT / "outils" / t["slug"]

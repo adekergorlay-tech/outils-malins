@@ -56,6 +56,8 @@ def layout(cfg, *, title, description, path, body, extra_head=""):
     if canonical:
         head.append(f'<link rel="canonical" href="{esc(canonical)}">')
         head.append(f'<meta property="og:url" content="{esc(canonical)}">')
+    if cfg.get("google_site_verification"):
+        head.append(f'<meta name="google-site-verification" content="{esc(cfg["google_site_verification"])}">')
     if cfg.get("adsense_client"):
         head.append(
             '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'

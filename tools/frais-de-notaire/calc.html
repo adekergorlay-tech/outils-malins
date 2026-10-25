@@ -1,0 +1,39 @@
+<div class="row">
+  <div>
+    <label for="prix">Prix d'achat du bien (€)</label>
+    <input id="prix" type="text" inputmode="decimal" value="250000">
+  </div>
+  <div>
+    <label for="type_bien">Type de bien immobilier</label>
+    <select id="type_bien">
+      <option value="ancien" selected>Logement ancien (≈ 7-8 %)</option>
+      <option value="neuf">Logement neuf / VEFA (≈ 2-3 %)</option>
+    </select>
+  </div>
+</div>
+<div class="row">
+  <div>
+    <label for="mobilier">Valeur du mobilier déductible (€)</label>
+    <input id="mobilier" type="text" inputmode="decimal" value="0">
+    <span class="hint">Cuisine équipée, électroménager (réduit les droits)</span>
+  </div>
+  <div>
+    <label for="departement">Département (taux DMTO)</label>
+    <select id="departement">
+      <option value="standard" selected>Majorité des départements (4,50 %)</option>
+      <option value="reduit">Indre, Isère, Mayotte, Morbihan (3,80 %)</option>
+    </select>
+    <span class="hint">Taxe départementale applicable</span>
+  </div>
+</div>
+<div class="result">
+  <div>Estimation des frais d'acquisition</div>
+  <div class="big" id="r-total">–</div>
+  <table>
+    <tr><td>Droits de mutation et taxes (Trésor Public)</td><td id="r-taxes">–</td></tr>
+    <tr><td>Émoluments réglementés du notaire (TTC)</td><td id="r-emoluments">–</td></tr>
+    <tr><td>Frais de formalités et débours estimés</td><td id="r-debours">–</td></tr>
+    <tr><td>Contribution de sécurité immobilière</td><td id="r-csi">–</td></tr>
+    <tr><td>Part du prix d'achat net</td><td id="r-pourcent">–</td></tr>
+  </table>
+</div>

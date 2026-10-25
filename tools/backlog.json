@@ -1,11 +1,5 @@
 [
   {
-    "slug": "frais-de-notaire",
-    "title": "Calcul des frais de notaire",
-    "category": "immobilier",
-    "notes": "Ancien ≈ 7-8 % du prix, neuf ≈ 2-3 %. Détail : droits de mutation (taux départemental, à vérifier), émoluments du notaire (barème proportionnel par tranches), débours. Préciser que c'est une estimation."
-  },
-  {
     "slug": "capacite-emprunt",
     "title": "Simulateur de capacité d'emprunt",
     "category": "immobilier",

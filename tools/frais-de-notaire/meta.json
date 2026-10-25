@@ -1,0 +1,26 @@
+{
+  "title": "Calculateur Frais de Notaire Immobilier Gratuit",
+  "description": "Estimez rapidement vos frais de notaire pour un achat immobilier ancien ou neuf. Détail des droits de mutation, émoluments et débours.",
+  "category": "immobilier",
+  "emoji": "🏠",
+  "date": "2026-10-25",
+  "generated": true,
+  "faq": [
+    {
+      "q": "Peut-on négocier les frais de notaire ?",
+      "a": "Les taxes et débours sont fixés par la loi et incompressibles. Seuls les émoluments du notaire au-delà de 100 000 € de prix de vente peuvent faire l'objet d'une remise maximale de 20 % (voire 40 % sur les très gros montants), à condition qu'elle soit appliquée de manière identique à tous les clients de l'office notarial."
+    },
+    {
+      "q": "Quand doit-on payer les frais de notaire ?",
+      "a": "Le montant total des frais doit être versé par virement bancaire sur le compte de l'office notarial quelques jours avant la signature définitive de l'acte authentique de vente. Quelques mois après la vente, le notaire établit le décompte exact et vous rembourse le trop-perçu éventuel."
+    },
+    {
+      "q": "Comment déduire le mobilier pour payer moins de frais ?",
+      "a": "Il convient de lister avec le vendeur les biens mobiliers cédés (électroménager, meubles non fixés, mobilier de jardin) et de leur attribuer une valeur réaliste et justifiée dans le compromis. Ce montant est alors soustrait du prix immobilier servant d'assiette aux droits de mutation."
+    },
+    {
+      "q": "Pourquoi les frais de notaire sont-ils moins chers dans le neuf ?",
+      "a": "Dans l'immobilier neuf (VEFA ou premier achat achevé), la vente est déjà soumise à la TVA immobilière (généralement 20 %). Les droits de mutation sont donc réduits à la seule taxe de publicité foncière de 0,715 %, ce qui amène les frais globaux à 2-3 % du prix au lieu de 7-8 %."
+    }
+  ]
+}
